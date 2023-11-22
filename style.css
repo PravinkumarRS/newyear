@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gideon+Roman&family=Kanit&family=Libre+Baskerville&family=Mochiy+Pop+One&family=Orbitron:wght@700&family=Playfair+Display:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://static.vecteezy.com/system/resources/previews/011/208/814/original/technology-background-analog-clock-time-vector.jpg);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.counter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+.newyear
+{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.box
+{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.box h2
+{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.box small
+{
+    font-size: 10px;
+}
+
+
+@media (min-width:576px) {
+
+    .newyear{
+        font-size: 60px;
+}
+    p{
+    font-size: 18px;
+}
+    .box h2{
+        font-size: 30px;
+}
+    .box{
+    width: 70px;
+    height: 70px;
+}
+    .box small{
+    font-size: 15px;
+}
+}
+
+@media (min-width:768px) {
+
+    .newyear{
+        font-size: 100px;
+} 
+    p{
+    font-size: 20px;
+}
+    .box h2{
+    font-size: 50px;
+}
+    .box{
+    width: 100px;
+    height: 100px;
+}
+    .box small{
+    font-size: 20px;
+}
+}
